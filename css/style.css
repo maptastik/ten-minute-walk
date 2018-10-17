@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:400,400i,700");
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+}
+#map {
+  position:absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+#container {
+  position: absolute;
+  background: #ffffff;
+  color: #000000;
+  max-width: 250px;
+  max-height: 600px;
+  padding: 10px;
+  bottom: 20px;
+  right: 0;
+  z-index: 998;
+  overflow-y: hidden;
+}
+
+#container>h4 {
+  margin: 0;
+}
+
+#address-list-container {
+  overflow-y: scroll;
+  max-height: 400px;
+}
+
+#address-list {
+  margin: 0;
+  padding-left: 20px;
+}
+
+#address-list > li {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#address-list > li ul {
+  font-weight: normal;
+  cursor: default;
+}
+
+#clear-layers-button-container {
+  margin-top: 10px;
+  text-align: center;
+}
+#clear-layers-button {
+  display: inline-block;
+}
